@@ -101,7 +101,7 @@ GENERAL NOTES
     <!--Execute contents of <javascript> elements? [boolean: false]-->
     <entry key="programd.javascript-allowed">true</entry>
     
-    <!--Where to write gossip entries.                       [URL: ../log/programd/gossip.txt]
+    <!--Where to write gossip entries.                       [URL: log/programd/gossip.txt]
         * Gossip entries will be written like this:
           <li>the gossip</li>.-->
     <entry key="programd.gossip.path">../log/programd/gossip.txt</entry>
@@ -124,7 +124,7 @@ GENERAL NOTES
     <entry key="programd.multiplexor-implementation">org.aitools.programd.multiplexor.FlatFileMultiplexor</entry>
     <!--<entry key="programd.multiplexor-classname">org.aitools.programd.multiplexor.DBMultiplexor</entry>-->
     
-    <!--The directory in which to save flat-file predicates (FFM only). [URL: ../log/programd/ffm]-->
+    <!--The directory in which to save flat-file predicates (FFM only). [URL: log/programd/ffm]-->
     <entry key="programd.multiplexor.ffm-dir">../log/programd/ffm</entry>
     
     <!--Enable the heart? [boolean: false]
